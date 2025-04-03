@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/Home'; 
+import AppRoutes from './routes/AppRoutes';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      React App
-      <Home/>
-    </div>
+      <AppRoutes />
   );
 }
 
 export default App;
+
+
